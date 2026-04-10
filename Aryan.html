@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevani Medical ID - Aryan Uttam</title>
+    <style>
+        /* Page Cutting Fix */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+            /* Mobile par gap ke liye */
+        }
+
+        .card {
+            width: 100%;
+            max-width: 380px;
+            /* Perfect for all mobiles */
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            border-top: 8px solid #d32f2f;
+        }
+
+        .header {
+            background: #d32f2f;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .profile-box {
+            text-align: center;
+            padding: 20px 0;
+            background: #fff5f5;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid #d32f2f;
+            background: #eee;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: 800;
+            color: #333;
+        }
+
+        .tag-id {
+            font-size: 12px;
+            color: #666;
+            font-weight: bold;
+        }
+
+        .data-container {
+            padding: 20px;
+        }
+
+        .data-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .data-row:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            color: #888;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .value {
+            color: #222;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .blood {
+            color: #d32f2f;
+            font-size: 18px;
+        }
+
+        .actions {
+            padding: 0 20px 25px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .btn-sos {
+            background: #d32f2f;
+            color: white;
+            box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+        }
+
+        .btn-hospital {
+            background: #1976d2;
+            color: white;
+            box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 11px;
+            color: #aaa;
+            background: #fafafa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="header">🆘 SANJEEVANI EMERGENCY ID</div>
+
+        <div class="profile-box">
+            <img src="https://ui-avatars.com/api/?name=Aryan+Uttam&background=d32f2f&color=fff&size=128" alt="Profile"
+                class="profile-img">
+            <div class="name">Aryan Uttam</div>
+            <div class="tag-id">ID: SNJ-2026-001</div>
+        </div>
+
+        <div class="data-container">
+            <div class="data-row">
+                <span class="label">Blood Group</span>
+                <span class="value blood">A Positive (A+)</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Age</span>
+                <span class="value">20 Years</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Allergies</span>
+                <span class="value">Dust, Pollen</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Primary Contact</span>
+                <span class="value">9876543210</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <a href="tel:9876543210" class="btn btn-sos">📞 CALL EMERGENCY CONTACT</a>
+            <a href="https://www.google.com/maps/search/hospitals+near+me" class="btn btn-hospital">🏥 NEAREST TRAUMA
+                CENTER</a>
+        </div>
+
+        <div class="footer">
+            Verified by Sanjeevani Smart-Shield Network
+        </div>
+    </div>
+
+</body>
+
+</html>
